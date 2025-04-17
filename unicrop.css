@@ -6,6 +6,7 @@
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
+    padding:20px;
   }
   header {
     background: white;
@@ -237,7 +238,7 @@
   }
 
 
-  @media (max-width: 100px) {
+  @media (max-width: 1200px) {
     .contact-info {
       flex-direction: column;
       gap: 8px;
@@ -350,7 +351,7 @@
     background: #393837;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     .about-section h2 {
       font-size: 28px;
     }
